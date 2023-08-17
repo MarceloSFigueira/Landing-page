@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+/*//////////////////// NAVBAR //////////////////*/
+
+.logo{
+    height: 100px;
+}
+
+
+.nav-link{
+    font-family: 'Electrolize', sans-serif;
+    font-size: 22px;
+}
+
+
+/*//////////////////// BANNER //////////////////*/
+
+
+#img_banner{
+    height: 500px;
+    object-fit: cover;
+
+}
+
+
+/*//////////////////// FIRST SECTION //////////////////*/
+
+.first-section{
+    height: 180vh;
+    background-color: #21191F;
+}
+
+
+.title{
+    display: flex;
+    justify-content: left;
+    background: #21191F;
+    margin-left: 40px;
+}
+
+.title h1{
+    font-family: 'Electrolize', sans-serif;
+    background: #21191F;
+    color: #fff;
+    margin-top: 120px;
+    font-size: 60px;
+    padding-bottom: 20px;
+    border-bottom: 3px 5px solid #fff;
+}
+
+.container{
+    max-width: 1200px;
+    background: #21191F;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container div{
+    flex: 1 1 400px;
+    margin: 20px;
+}
+
+.box{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    height: 380px;
+    width: 300px;
+    transition: 0.5s;
+}
+
+/*//////////////////// SECOND SECTION //////////////////*/
+
+.second-section{
+    background-color: black;
+    height: 120vh;
+}
+
+.title-second{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.title-second h1{
+    background: #000;
+    color: #fff;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 60px;
+    margin-top: 80px;
+}
+
+
+/*//////////////////// RODAPÉ //////////////////*/
+
+.rodapé{
+    height: 50vh;
+    background-color: #fff;
+}
+
+.container-logo{
+    border-bottom: 1px solid #797777;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.infos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.links li{
+    list-style: none;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.icon{
+    background-color: #000;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
